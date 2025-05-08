@@ -45,6 +45,12 @@ body {
     height: auto;
     display: block;
   }
+
+  .event-card .img-event4 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
   
   .event-content {
     padding: 1rem;
