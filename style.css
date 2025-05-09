@@ -54,6 +54,18 @@ h2 {
   transform: scale(1.02);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
+.event-card:hover::after {
+  content: "🎫 Compra ya";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: var(--color1);
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 
 .event-card img,
 .event-card .img-event4 {
